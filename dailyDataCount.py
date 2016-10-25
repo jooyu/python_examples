@@ -6,6 +6,7 @@ import dataMysql
 import time
 import MySQLdb
 
+
 # 获得游戏id
 import sys
 
