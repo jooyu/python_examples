@@ -17,27 +17,27 @@ day = time.strftime('%Y-%m-%d', time.localtime(time.time()))
 
 
 conn1 = MySQLdb.connect(
-    host='192.168.2.44',
-    port=3317,
-    user='root',
-    passwd='123456',
-    db='game_invite',
+    host='',
+    port=,
+    user='',
+    passwd='',
+    db='',
 );
 
 conn2 = MySQLdb.connect(
-    host='192.168.2.44',
-    port=3317,
-    user='root',
-    passwd='123456',
-    db='promoter_statistic',
+    host='',
+    port=,
+    user='',
+    passwd='',
+    db='',
 );
 
 conn3 = MySQLdb.connect(
-    host='192.168.2.44',
-    port=3317,
-    user='root',
-    passwd='123456',
-    db='point_service',
+    host='',
+    port=,
+    user='',
+    passwd='',
+    db='',
 );
 
 datamysql = dataMysql.dataMysql()
